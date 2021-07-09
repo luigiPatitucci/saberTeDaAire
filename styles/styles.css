@@ -68,6 +68,7 @@ ul > li > a:hover {
   background-color: #4368fa;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+  line-height: 8vh;
   color: #e9e9e9;
   border-radius: 25px;
   width: 70vw;
@@ -186,7 +187,7 @@ ul > li > a:hover {
   width: 65vw;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2.7rem;
+  margin-bottom: 2.4rem;
 }
 .titulo {
   padding: 1rem;
@@ -202,13 +203,27 @@ ul > li > a:hover {
   font-size: 15px;
   color: #e9e9e9;
   margin-top: 0;
-  margin-bottom: 2%;
+  margin-bottom: 1vh;
+}
+.descripcion2 {
+  margin-right: 16vw;
+  margin-left: 16vw;
+}
+.descripcion3 {
+  margin-right: 16vw;
+  margin-left: 16vw;
+  margin-bottom: 5vh;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #e9e9e9;
+  margin-top: 0;
 }
 
 .haceElTestAhora {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
   align-items: center;
   /* margin-left: auto;
   margin-right: auto; */
@@ -225,10 +240,18 @@ ul > li > a:hover {
   font-weight: 400;
   font-size: 2rem;
   color: #e9e9e9;
-  margin: 0px;
+  margin-bottom: 2vh;
   padding: 0px;
+}
+
+.testBoton2 h1 {
+  margin-bottom: 10vh;
+}
+.testBoton2 {
+  cursor: pointer;
 }
 
 /* FOOTER */
 
 /* CONTEINER */
+
