@@ -146,6 +146,9 @@ ul > li > a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+.video2.2 {
+  margin-bottom: 0;
+}
 
 .conteinerBurbujas {
   display: flex;
@@ -254,4 +257,3 @@ ul > li > a:hover {
 /* FOOTER */
 
 /* CONTEINER */
-
