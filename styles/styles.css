@@ -104,7 +104,7 @@ ul > li > a:hover {
   height: 390px;
   margin-top: 1vh;
   margin-left: auto;
-  margin-right: 5px;
+  margin-right: 2vw;
   border: 1px solid #4368fa;
   border-left: none;
   border-radius: 25px;
@@ -149,7 +149,7 @@ ul > li > a:hover {
 .conteinerBurbujas {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 2%;
   width: 100vw;
   margin-left: auto;
@@ -159,6 +159,8 @@ ul > li > a:hover {
 
 .burbuja {
   display: flex;
+  margin-right: 4vw;
+  margin-left: 4vw;
   flex-direction: column;
   background-color: white;
   width: 350px;
@@ -181,7 +183,7 @@ ul > li > a:hover {
   flex-direction: column;
   text-align: center;
   overflow: hidden;
-  width: 900px;
+  width: 65vw;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2.7rem;
