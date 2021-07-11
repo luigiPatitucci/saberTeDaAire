@@ -47,6 +47,7 @@ ul > li > a:hover {
   flex-direction: column;
   background-size: 100vw;
   height: 133vw;
+  margin-bottom: 0;
 }
 .testBoton {
   background-color: transparent;
@@ -100,6 +101,7 @@ ul > li > a:hover {
   border: 1px solid #4368fa;
   text-align: center;
 }
+
 .tresFasesInside {
   width: 96%;
   height: 390px;
@@ -137,7 +139,8 @@ ul > li > a:hover {
   width: 100%;
   color: white;
   font-size: 40px;
-  margin-top: 2%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 
 .video2 {
@@ -145,9 +148,15 @@ ul > li > a:hover {
   height: 65vh;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5vh;
 }
-.video2.2 {
+.video3 {
+  width: 100vw;
+  height: 65vh;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 0;
+  margin-top: 3vh;
 }
 
 .conteinerBurbujas {
@@ -190,7 +199,8 @@ ul > li > a:hover {
   width: 65vw;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2.4rem;
+  margin-bottom: 0;
+  margin-top: 4vh;
 }
 .titulo {
   padding: 1rem;
@@ -203,10 +213,9 @@ ul > li > a:hover {
 .descripcion {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 15px;
-  color: #e9e9e9;
+  font-size: 16px;
+  color: white;
   margin-top: 0;
-  margin-bottom: 1vh;
 }
 .descripcion2 {
   margin-right: 16vw;
@@ -230,6 +239,7 @@ ul > li > a:hover {
   align-items: center;
   /* margin-left: auto;
   margin-right: auto; */
+  margin-top: 0;
   text-align: center;
   background-color: #2568fe;
   font-family: "Raleway", sans-serif;
@@ -253,7 +263,3 @@ ul > li > a:hover {
 .testBoton2 {
   cursor: pointer;
 }
-
-/* FOOTER */
-
-/* CONTEINER */
