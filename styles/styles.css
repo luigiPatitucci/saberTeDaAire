@@ -29,9 +29,23 @@ h5 {
 /* NAV BAR */
 
 ul > li > a:hover {
-  background-color: #295da7 !important;
-  color: aliceblue !important;
+  background-color: #295da7;
+  color: white !important;
   border-radius: 4px;
+}
+.liConoceABC {
+  display: flex;
+  align-items: center;
+}
+.linkConoceABC {
+  height: 4vh;
+  width: 8vw;
+}
+.linkConoceABC:hover {
+  background-color: #4568fa;
+  color: #daada9 !important;
+  border-radius: 10px;
+  text-decoration: none;
 }
 /* CONTEINER */
 
@@ -108,24 +122,25 @@ ul > li > a:hover {
   height: 68vh;
 }
 .tresFases {
-  width: 18vw;
-  height: 400px;
+  width: 17.5vw;
+  height: 380px;
   margin-top: 2vh;
-  margin-right: 4vw;
-  margin-left: 4vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
   border-radius: 25px;
   border: 1px solid #4368fa;
   text-align: center;
+  border-left: none;
 }
 
 .tresFasesInside {
-  width: 96%;
+  width: 17vw;
   height: 390px;
   margin-top: 1vh;
   margin-left: auto;
   margin-right: 2vw;
   border: 1px solid #4368fa;
-  border-left: none;
+  background-color: white;
   border-radius: 25px;
   overflow: hidden;
   text-align: center;
@@ -137,6 +152,14 @@ ul > li > a:hover {
 
 .tresFasesInside p {
   margin: 12px;
+}
+.svg1 {
+  position: absolute;
+  margin-right: 23.3vw;
+}
+.svg2 {
+  position: absolute;
+  margin-left: 23.6vw;
 }
 /* CONTEINER */
 
