@@ -58,6 +58,7 @@ ul > li > a:hover {
   display: flex;
   align-items: center;
   text-align: center;
+  margin-right: 1vh;
 }
 .linkMiraRespira {
   font-size: 19px;
