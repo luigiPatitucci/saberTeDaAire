@@ -107,7 +107,7 @@
     margin-top: 1vh;
     margin-left: 23vw;
     margin-bottom: 4vh;
-    border-radius: 25px;
+    border-radius: 40px 25px 25px 25px;
     border: 1px solid #4368fa;
     text-align: center;
     border-left: none;
@@ -452,3 +452,4 @@
 }
 
 /* IPAD */
+
