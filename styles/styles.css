@@ -126,8 +126,19 @@ ul > li > a:hover {
 } */
 
 /* PERTENECE A LA SEGUNDA SECCION, "conteinerB" */
-.asmaBajoControl {
+.asmaBajoControlOutside {
+  width: 70.5vw;
+  height: 21vh;
   margin-top: 18vh;
+  margin-bottom: 4vh;
+  border-radius: 38px 25px 35px 25px;
+  border: 2px solid #4368fa;
+  text-align: center;
+  border-left: none;
+  margin-bottom: 4vh;
+}
+.asmaBajoControl {
+  margin-top: 1vh;
   background-color: #4368fa;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -137,7 +148,6 @@ ul > li > a:hover {
   width: 70vw;
   font-size: 40px;
   text-align: center;
-  box-shadow: 5px 0px 5px 3px gray;
   overflow: hidden;
 }
 .asmaBajoControl p {
@@ -162,7 +172,7 @@ ul > li > a:hover {
   margin-top: 2vh;
   margin-right: 3vw;
   margin-left: 3vw;
-  border-radius: 25px;
+  border-radius: 40px 28px 28px 28px;
   border: 1px solid #4368fa;
   text-align: center;
   border-left: none;
@@ -182,10 +192,17 @@ ul > li > a:hover {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   color: #4368fa;
-  font-size: 12px;
+  font-size: 2vh;
 }
-.imgInside {
-  margin-top: 1vh;
+.imgInside1 {
+  width: 15vw;
+}
+.imgInside2 {
+  margin-top: 4vh;
+  width: 15vw;
+}
+.imgInside3 {
+  width: 15vw;
 }
 
 .tresFasesInside p {
@@ -278,6 +295,7 @@ ul > li > a:hover {
 }
 .burbuja p {
   margin: 25px;
+  font-size: 1.1vw;
 }
 
 .enPrimeraPersona {
