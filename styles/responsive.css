@@ -1,6 +1,5 @@
 
 
-
 @media (max-width: 480px) {
   body {
     overflow-x: hidden;
@@ -74,7 +73,7 @@
     background-size: 100vw;
   }
   .conteinerC {
-    background-image: url("../miraRespira/Recurso1.png");
+    background-image: url("../miraRespira/1x/FondoConteinerC.png");
     background-size: 100vw;
     background-repeat: no-repeat;
     height: 100vh;
@@ -99,7 +98,7 @@
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     color: #e9e9e9;
-    border-radius: 25px;
+    border-radius: 18px;
     text-align: center;
     align-items: center;
     width: 80vw;
@@ -305,3 +304,18 @@
     width: 100px;
   }
 }
+
+/* iPHONE X */
+@media (min-width: 375px) and (max-width: 812px) {
+  .conteinerC {
+    background-image: url("../miraRespira/1x/IphoneX.png") !important;
+  }
+}
+
+/* IPHONE 678 */
+@media (min-width: 375px) and (max-width: 667px) {
+  .conteinerC {
+    background-image: url("../miraRespira/1x/FondoIphone678.png");
+  }
+}
+
