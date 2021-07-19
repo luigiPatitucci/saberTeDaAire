@@ -80,31 +80,33 @@
     display: none;
   }
   .asmaBajoControl2Outside2 {
-    width: 85.7vw;
-    height: 8.5vh;
+    width: 83.7vw;
+    height: 9vh;
     margin-top: 3vh;
+    margin-left: 3.5vw;
     margin-bottom: 4vh;
-    border-radius: 48px 25px 35px 25px;
+    border-radius: 30px;
     border: 1px solid #4368fa;
     text-align: center;
-    border-left: none;
     margin-bottom: 4vh;
   }
   .asmaBajoControl2 {
     display: flex;
+    position: absolute;
     background-color: #4368fa;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     color: #e9e9e9;
-    border-radius: 20px;
+    border-radius: 30px;
     text-align: center;
     align-items: center;
-    width: 85vw;
-    height: 8vh;
-    margin-top: 0.8vh;
+    width: 83.7vw;
+    height: 8.5vh;
+    margin-top: 0.5vh;
+    left: 9vw;
     margin-bottom: 0vh;
-    font-size: 14px;
-    line-height: 3vh;
+    font-size: 13px;
+    line-height: 2.5vh;
   }
   .asmaBajoControl2 p {
     margin: 2vw;
