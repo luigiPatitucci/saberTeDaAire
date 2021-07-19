@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;900&display=swap"); /* Tipografias */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+@import url("https://fonts.google.com/specimen/Barlow+Condensed?query=barlow&sidebar.open=true&selection.family=Barlow+Condensed:wght@100");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap");
+
+@import url("./navbar.css");
+
+/* TODOS LOS ESTILOS ESTAN COMENTADOS Y DIVIDIDOS POR SECCION, LAS CUALES LAS NOMBRE ENTRE COMILLAS ""
+CON LOS NOMBRES QUE APARECEN EN EL HTML. */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+}
+
+/* NAV BAR */
+
+ul > li > a:hover {
+  background-color: #295da7;
+  color: white !important;
+  border-radius: 4px;
+}
+.liConoceABC {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.linkConoceABC {
+  font-size: 19px;
+  margin-left: 4px;
+  font-weight: 500;
+  font-family: "Barlow Condensed", sans-serif;
+  padding: 4px 10px 4px 10px;
+  border-radius: 20px;
+  background-color: #4568fa;
+  color: #daada9;
+}
+.linkConoceABC:hover {
+  color: white !important;
+  border-radius: 20px;
+  background-color: #4568fa;
+  text-decoration: none;
+}
+.liMiraRespira {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 1vh;
+}
+.linkMiraRespira {
+  font-size: 19px;
+  margin-left: 4px;
+  font-weight: 500;
+  font-family: "Barlow Condensed", sans-serif;
+  padding: 4px 10px 4px 10px;
+  border-radius: 20px;
+  background-color: #02d7c0;
+  color: white;
+}
+.linkMiraRespira:hover {
+  color: #02d7c0 !important;
+  border-radius: 20px;
+  background-color: #f8f9fa;
+  padding: 2px 8px 2px 8px;
+  border: solid 2px;
+  border-color: #02d7c0;
+  text-decoration: none;
+}
+/* CONTEINER */
+
+/* VIDEO PORTADA */
+.video {
+  margin: 0;
+  height: 80vh;
+}
+/* CONTEINER */
+
+/* SEGUNDA SECCION */
+.conteinerB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../miraRespira/Fondo2.png");
+  background-size: cover;
+}
+/* CONTEINER */
+
+/* TERCERA SECCION */
+.conteinerC {
+  background-image: url(../miraRespira/Fondo.png);
+  background-color: #f2fdff;
+  display: flex;
+  flex-direction: column;
+  background-size: 100vw;
+  height: 133vw;
+  margin-bottom: 0;
+}
+/* CONTEINER */
+
+/* primer boton */
+.testBoton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 8vh;
+  /* position: relative; */
+}
+
+/* .testBoton:hover::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 0;
+  background-color: red;
+} */
+
+/* PERTENECE A LA SEGUNDA SECCION, "conteinerB" */
+.asmaBajoControlOutside {
+  width: 70.5vw;
+  height: 21vh;
+  margin-top: 18vh;
+  margin-bottom: 4vh;
+  border-radius: 38px 25px 35px 25px;
+  border: 2px solid #4368fa;
+  text-align: center;
+  border-left: none;
+  margin-bottom: 4vh;
+}
+.asmaBajoControl {
+  margin-top: 1vh;
+  background-color: #4368fa;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 8vh;
+  color: #e9e9e9;
+  border-radius: 25px;
+  width: 70vw;
+  font-size: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+.asmaBajoControl p {
+  margin: 2vh;
+}
+.asmaBajoControl2 {
+  display: none;
+}
+
+.tresFasesConteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 3%;
+  width: 100vw;
+  height: 68vh;
+}
+.tresFases {
+  width: 17.5vw;
+  height: 65vh;
+  margin-top: 2vh;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  border-radius: 40px 28px 28px 28px;
+  border: 1px solid #4368fa;
+  text-align: center;
+  border-left: none;
+}
+
+.tresFasesInside {
+  width: 17vw;
+  height: 65vh;
+  margin-top: 1vh;
+  margin-left: auto;
+  margin-right: 2vw;
+  border: 1px solid #4368fa;
+  background-color: white;
+  border-radius: 25px;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #4368fa;
+  font-size: 2vh;
+}
+.imgInside1 {
+  width: 15vw;
+}
+.imgInside2 {
+  margin-top: 4vh;
+  width: 15vw;
+}
+.imgInside3 {
+  width: 15vw;
+}
+
+.tresFasesInside p {
+  margin-top: 8px !important;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+}
+.svg1 {
+  position: absolute;
+  margin-right: 23.3vw;
+  width: 7.9vw;
+  height: 80vh;
+}
+.svg2 {
+  position: absolute;
+  margin-left: 23.6vw;
+  width: 7.9vw;
+  height: 80vh;
+}
+.carouselMobile {
+  display: none;
+}
+/* CONTEINER */
+
+/* PERTENECE A LA TERCER SECCION, "conteinerC" */
+.asmaSignificado {
+  display: flex;
+  align-items: center;
+  color: #e9e9e9;
+  margin-top: 5vh;
+  /* margin-left: 0;
+  margin-right: 0; */
+  flex-direction: column;
+  text-align: center;
+}
+.parrafoInterrogar {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.video2 {
+  width: 100vw;
+  height: 65vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+}
+.video3 {
+  width: 100vw;
+  height: 65vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 3vh;
+}
+
+.conteinerBurbujas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2%;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+.burbuja {
+  display: flex;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  flex-direction: column;
+  background-color: white;
+  width: 350px;
+  height: 380px;
+  overflow: hidden;
+  border-radius: 50px;
+  align-items: center;
+  box-shadow: 5px 5px #4368fa;
+  color: #4368fa;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+.burbuja p {
+  margin: 25px;
+  font-size: 1.1vw;
+}
+
+.enPrimeraPersona {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+  width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 4vh;
+}
+.titulo {
+  padding: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: #e9e9e9;
+  margin: 0;
+}
+.descripcion {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  margin-top: 0;
+}
+/* CONTEINER */
+
+/* PERTENECE A LA CUARTA SECCION, "haceElTestAhora" */
+.descripcion2 {
+  margin-right: 16vw;
+  margin-left: 16vw;
+}
+.descripcion3 {
+  margin-right: 16vw;
+  margin-left: 16vw;
+  margin-bottom: 5vh;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #e9e9e9;
+  margin-top: 0;
+}
+
+.haceElTestAhora {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: 0;
+  text-align: center;
+  background-color: #2568fe;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #e9e9e9;
+}
+
+.haceElTestAhora h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #e9e9e9;
+  margin-bottom: 2vh;
+  padding: 0px;
+}
+
+.testBoton2 h1 {
+  margin-bottom: 10vh;
+}
+.testBoton2 {
+  cursor: pointer;
+}
+/* CONTEINER */
+
+/* FOOTER */
+
+/* CONTEINER */
