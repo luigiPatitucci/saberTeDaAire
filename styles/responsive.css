@@ -315,6 +315,64 @@
   .conteinerC {
     background-image: url("../miraRespira/IphoneX.png") !important;
   }
+  .tresFases {
+    width: 56.5vw;
+    height: 30vh;
+    margin-top: 1vh;
+    margin-left: 23vw;
+    margin-bottom: 4vh;
+    border-radius: 40px 28px 28px 28px;
+    border: 1px solid #4368fa;
+    text-align: center;
+    border-left: none;
+  }
+
+  .tresFasesInside {
+    width: 55vw;
+    height: 30vh;
+    margin-left: 15vw;
+    margin-top: 1vh;
+    margin-right: 18vw;
+    border: 1px solid #4368fa;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #4368fa;
+    font-size: 2.2vw;
+  }
+
+  .tresFasesInside p {
+    margin-top: 0px !important;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+  }
+  .carouselMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .imgInsideComunidad {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+  .flechita {
+    background-color: #02d7c0;
+    opacity: 7;
+    border-radius: 20px;
+    width: 7vw;
+    height: 4vh;
+    margin-left: 12vw;
+    margin-right: 10.5vw;
+    margin-top: 15vh;
+  }
+  .flechita span {
+    width: 12px;
+  }
 }
 
 /* IPHONE 678 */
