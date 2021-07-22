@@ -374,6 +374,12 @@ ul > li > a:hover {
 .testBoton2 {
   cursor: pointer;
 }
+.code {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #e9e9e9;
+}
 /* CONTEINER */
 
 /* FOOTER */
